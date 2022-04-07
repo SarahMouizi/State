@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -36,3 +37,16 @@
     transform: rotate(360deg);
   }
 }
+
+.photo {
+  height: 200px ;
+  width: 300px ;
+}
+
+
+.style {
+  text-align: center;
+  font-style : Bold ;
+  color : rgb(13, 13, 122) ;
+}
+
