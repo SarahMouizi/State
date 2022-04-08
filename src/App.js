@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState,Component } from 'react';
+import React, {Component } from 'react';
 import Counter from './counter'
 
 
@@ -43,6 +43,7 @@ export class App extends Component {
   render() {
     return (
       <div className='style'>
+        <p className='sarah'>Bonjour Sarah</p>
           <button  onClick={()=>{this.setState({toggleState:!this.state.toggleState})}}   >hide</button>
 
         {
@@ -54,7 +55,7 @@ export class App extends Component {
               <h4>It is {this.state.date.toLocaleTimeString()}.</h4>
               
               <img className='photo' src= {this.state.imgSrc} alt='Oprah'/>
-              <Counter/>
+               <Counter/>
             </>
             
           ):(<> </>)
